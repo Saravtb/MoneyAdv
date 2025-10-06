@@ -9,7 +9,7 @@ def mostrar_cotacao():
         texto = f"A cotação do {cod_cotacao.upper()} é R$ {cotacao}"
         label_cotacao.config(text=texto, fg="#2e7d32")
     else:
-        label_cotacao.config(text="Nenhuma moeda informada.", fg="#c62828")
+        label_cotacao.config(text="Nenhuma moeda informada.", fg="#cb2929")
 
 root = tk.Tk()
 root.title("Cotação da Moeda")
